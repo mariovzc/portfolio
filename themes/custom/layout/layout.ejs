@@ -12,19 +12,46 @@
 
   <% if (style == 'material'){%>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <% }else if(style == 'bootstrap'){ %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">    
   <%} %>
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
   
   <link href="css/style.css" rel="stylesheet">
+  <style>
+      .button-f{
+        width:60px;
+        height:60px;
+        border-radius:100%;
+        background: #40C4FF;
+        right:0;
+        bottom:0;
+        position:fixed;
+        margin-right:16px;
+        margin-bottom:16px;
+        border:none;
+        outline:none;
+        color:#FFF;
+        font-size:36px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        transition:.3s;  
+      }
+      .button-f a{
+        color: #FAFAFA;
+      }
+      span{
+        transition:.5s;  
+      }
+      .button-f:hover{
+        transform:scale(1.1);
+      }
+  </style>
 </head>
 
 <body>
   <%- body %>
-  
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
