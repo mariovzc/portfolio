@@ -4,6 +4,7 @@
 
 html, body, .block {
 	height: auto;
+	background-color: #EDEDED;
 }
 
 .intro
@@ -76,6 +77,7 @@ html, body, .block {
 .about .card img
 {
 	margin-bottom: 15px;
+	border-radius: 30px;
 }
 .company{
   margin-top: -10px;
@@ -108,10 +110,13 @@ html, body, .block {
 	width: 40px;
 	margin-bottom: 45px;
 }
-.portfolio-holder img{
-	width: 100%;
-}
 
+.card-action{
+	text-align: center;
+}
+.cont .card-action a{
+	color: #40C4FF !important;
+}
 .contact .col
 {
 	margin-bottom: 24px;
