@@ -1,0 +1,299 @@
+<% style = 'bootstrap'%>
+
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">E-commerce</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#"> 
+            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+            Canasta
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Salir
+          </a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-xs-12">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Buscar camisetas">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        </span>
+      </div><!-- /input-group -->
+      <div class="hidden-xs hidden-sm hidden-md">
+          <h3>Categorías</h3>
+          <ul class="list-group">
+            <li class="list-group-item active">
+              <span class="badge">100</span>
+              Todo
+            </li>
+            <li class="list-group-item">
+              <span class="badge">4</span>
+              Hombre
+            </li>
+            <li class="list-group-item">
+              <span class="badge">12</span>
+              Mujer
+            </li>
+            <li class="list-group-item">
+              <span class="badge">24</span>
+              Hipster
+            </li>
+            <li class="list-group-item">
+              <span class="badge">6</span>
+              Metal
+            </li>
+            <li class="list-group-item">
+              <span class="badge">5</span>
+              Universidad
+            </li>
+            <li class="list-group-item">
+              <span class="badge">8</span>
+              Deportiva
+            </li>
+            <li class="list-group-item">
+              <span class="badge">11</span>
+              Rayas
+            </li>
+            <li class="list-group-item">
+              <span class="badge">19</span>
+              Aprerada
+            </li>
+          </ul>
+      </div>
+      <br>
+    </div>
+    <div class="col-md-9 col-xs-12">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-1.jpg" alt="slider1">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-2.jpg" alt="slider2">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-3.jpg" alt="slider3">
+              <div class="carousel-caption">
+              </div>
+            </div>
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div> <br>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="ecomerce">
+            <div class="caption">
+              <h3>Hipster Ultimate</h3>
+              <p>La camiseta ideal para Hipster</p>
+              <p>
+                <a href="#" class="btn btn-primary" role="button">
+                  $229 
+                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                </a>
+                <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal">
+                  Detalles
+                </a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-2.jpg" alt="ecomerce">
+            <div class="caption">
+              <h3>One motion Live</h3>
+              <p>Perfecta para salidas roscosas</p>
+              <p>
+                <a href="#" class="btn btn-primary" role="button">
+                  $229 
+                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 
+                </a> 
+                <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal">
+                  Detalles
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-3.jpg" alt="ecomerce">
+            <div class="caption">
+              <h3>Underground max</h3>
+              <p>Para los amantes del underground</p>
+              <p>
+                <a href="#" class="btn btn-primary" role="button">
+                  $229 
+                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 
+                </a> 
+                <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal">
+                  Detalles
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-4.jpg" alt="ecomerce">
+            <div class="caption">
+              <h3>Hipster Ultimate</h3>
+              <p>La camiseta ideal para Hipster</p>
+              <p>
+                <a href="#" class="btn btn-primary" role="button">
+                  $229 
+                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                  </a> 
+                <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal">
+                  Detalles
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>            
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-5.jpg" alt="ecomerce">
+              <div class="caption">
+                <h3>Hipster Ultimate</h3>
+                <p>La camiseta ideal para Hipster</p>
+                <p>
+                  <a href="#" class="btn btn-primary" role="button" >
+                    $229 
+                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 
+                  </a> 
+                  <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal" >
+                    Detalles
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div> 
+  </div>
+</div>
+<div class="modal fade my-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Hipster Ultimate</h4>
+      </div>
+      <div class="modal-body">
+        <div class="alert alert-info" role="alert">
+          <span class="glyphicon glyphicon-info-sign"></span>     Este producto está agotado.
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <a href="#" class="thumbnail">
+              <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="image">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <p>
+              Precio: 
+              <strong>$299</strong>
+            </p>
+            <p>
+              Calificaión:
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star-empty"></span>
+            </p>
+            <p>
+              <button class="btn btn-warning btn-sm">Hipster</button>
+              <button class="btn btn-gray btn-sm">Deportiva</button>    
+            </p>
+            <a>
+              <span class="glyphicon glyphicon-heart"></span>
+              Agregar a los deseos
+            </a>
+          </div>
+        </div>
+        <div>                  
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+              <a href="#description" aria-controls="home" role="tab" data-toggle="tab">
+                Descripción
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#comments" aria-controls="profile" role="tab" data-toggle="tab">
+                Comentarios
+              </a>
+            </li>
+          </ul>              
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="description">
+              <br>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Recusandae officiis, 
+                  pariatur soluta tenetur odio iusto voluptatibus assumenda, 
+                  aspernatur consequatur, autem quas quisquam at ea eum fuga! Excepturi quaerat deleniti est.
+              </p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="comments">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  Germán Escobar comentó hace 2 días
+                </div>
+                <div class="panel-body">
+                  Esta camiseta está increíble, la quiero!
+                </div>
+              </div>
+              <textarea class="form-control" rows="3" placeholder="Ingresa tu comentario"></textarea>                    
+            </div>
+          </div>                  
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
