@@ -1,10 +1,16 @@
-<div class='row'>
-    <a class='btn btn-default' href='/blog'>< Home</a>
+<% mobile = true %>
+<% style = 'material' %>
+<%- partial('_partial/blog_nav') %>
+<div class="container main">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m12 ">
+          <img class="materialboxed" width="650" src="<%= page.image %>">          
+          <h2 class="post-title"><%- page.title %></h2>
+          <div class="post-content">
+              <%- page.content %>                    
+          </div>
+        </div>
+    </div>        
   </div>
-  <div class='row'>
-    <h1><%- page.title %></h1>
-    <div class='text-muted'>
-          <%= date(page.date, config.date_format) %> 
-      </div>
-    <%- page.content %>
-  </div>
+</div>
