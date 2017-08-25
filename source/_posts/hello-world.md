@@ -1,39 +1,44 @@
 ---
-title: Hello World
-image: http://wallpapercave.com/wp/J1jYqQD.jpg
+index: 0
+title: Introducción a Hexo
+image: https://avatars0.githubusercontent.com/u/6375567?v=4&s=400
+resume: Hexo es un simple y rapido framework de blogs
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
 
-### Create a new post
+Bienvenido a [Hexo] (https://hexo.io/)! Este es tu primer post. Consulte [documentación] (https://hexo.io/docs/) para obtener más información. Si tienes algún problema al usar Hexo, puedes encontrar la respuesta en [solución de problemas] (https://hexo.io/docs/troubleshooting.html) o puedes preguntarme sobre [GitHub] (https://github.com/hexojs/hexo/issues).
+
+
+## Inicio rápido
+
+### Crear un nuevo psot
 
 ``` bash
 $ hexo new "My New Post"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+Mas información: [Writing](https://hexo.io/docs/writing.html)
 
-### Run server
+### Correr el servidor
 
 ``` bash
 $ hexo server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+Mas información: [Server](https://hexo.io/docs/server.html)
 
-### Generate static files
+### Generar archivos estaticos
 
 ``` bash
 $ hexo generate
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+Mas información: [Generating](https://hexo.io/docs/generating.html)
 
-### Deploy to remote sites
+### Desplegar a sitios remotos
 
 ``` bash
 $ hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+Mas información: [Deployment](https://hexo.io/docs/deployment.html)
