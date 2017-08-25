@@ -14,12 +14,6 @@ main {
   flex: 1 0 auto;
 }
 
-.nav-style{
-  background-color: whitesmoke;
-}
-.nav-style a, .nav-style p{
-  color: #5f5f5f;  
-}
 .main{
   margin-top: 20px;
 }

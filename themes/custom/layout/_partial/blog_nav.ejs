@@ -1,16 +1,9 @@
 <header>
-  <div class="parallax-container">
-    <div class="parallax"><img src="http://materializecss.com//images/parallax1.jpg"></div>
-    <div class="paralax-items">
-      <h1><%= config.title %></h1>
-      <p><%= config.subtitle %></p>  
-    </div>
-  </div>
   <nav>
-    <div class="nav-wrapper nav-style">
-      <a href="/blog" class="brand-logo center">Blog</a>
+    <div class="nav-wrapper light-blue accent-3 z-depth-1">
+      <a href="/blog" class="brand-logo center"><%=title%></a>
       <ul class="left ">
-        <li><a href="/">Home</a></li>
+        <li><a href="<%=redirect%>"><i class="material-icons">arrow_back</i></a></li>
       </ul>
     </div>
   </nav>

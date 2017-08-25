@@ -1,11 +1,10 @@
 <% mobile = true %>
 <% style = 'material' %>
-<%- partial('_partial/blog_nav') %>
+<%- partial('_partial/blog_nav',{redirect: "/blog", title: ""}) %>
 <div class="container main">
   <div class="container">
     <div class="row">
       <div class="col s12 m12 ">
-          <img class="materialboxed" width="650" src="<%= page.image %>">          
           <h2 class="post-title"><%- page.title %></h2>
           <div class="post-content">
               <%- page.content %>                    

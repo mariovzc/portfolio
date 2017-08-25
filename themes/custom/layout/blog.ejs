@@ -1,6 +1,6 @@
 <% mobile = true %>
 <% style = 'material' %>
-<%- partial('_partial/blog_nav') %>
+<%- partial('_partial/blog_nav',{redirect: "/", title: "Blog"}) %>
 <div class="container">
   <div class="row">
     <% site.posts.each(function(post){ %>
